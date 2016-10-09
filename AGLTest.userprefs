@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{534132E8-BBE3-4655-9616-7D15C7288C9C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AGLTest/Services/JsonService.cs">
+    <Files>
+      <File FileName="AGLTest/Program.cs" Line="63" Column="104" />
+      <File FileName="AGLTest/Models/Owner.cs" Line="7" Column="3" />
+      <File FileName="AGLTest/Controllers/HomeController.cs" Line="24" Column="83" />
+      <File FileName="AGLTest/Views/Home/Index.cshtml" Line="9" Column="2" />
+      <File FileName="AGLTest/Models/Pet.cs" Line="5" Column="3" />
+      <File FileName="AGLTest/Interfaces/IService.cs" Line="11" Column="68" />
+      <File FileName="AGLTest/Services/JsonService.cs" Line="21" Column="43" />
+      <File FileName="AGLTest.Tests/Services/JsonServiceTest.cs" Line="19" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AGLTest" expanded="True">
+            <Node name="AGLTest" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="JsonService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="AGLTest.Tests" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

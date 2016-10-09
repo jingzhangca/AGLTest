@@ -1,0 +1,11 @@
+﻿<h2>Male</h2>
+@foreach (var pet in (List<Pet>)ViewData["CatsWithMaleOwner"])
+{
+  <div>@pet.Name</div>
+}
+
+<h2>Female</h2>
+@foreach (var pet in (List<Pet>)ViewData["CatsWithFemaleOwner"])
+{
+  <div>@pet.Name</div>
+}
