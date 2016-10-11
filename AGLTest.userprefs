@@ -1,30 +1,23 @@
 ﻿<Properties StartupConfiguration="{534132E8-BBE3-4655-9616-7D15C7288C9C}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="AGLTest.Tests/Services/JsonServiceTest.cs">
     <Files>
-      <File FileName="AGLTest/Services/JsonService.cs" Line="24" Column="46" />
+      <File FileName="AGLTest/Services/JsonService.cs" Line="39" Column="40" />
       <File FileName="AGLTest/Web.config" Line="34" Column="2" />
       <File FileName="AGLTest/Models/Owner.cs" Line="10" Column="4" />
       <File FileName="AGLTest/Models/Pet.cs" Line="1" Column="1" />
       <File FileName="AGLTest/Interfaces/IService.cs" Line="11" Column="68" />
       <File FileName="AGLTest/Controllers/HomeController.cs" Line="29" Column="4" />
-      <File FileName="AGLTest.Tests/Services/JsonServiceTest.cs" Line="10" Column="12" />
+      <File FileName="AGLTest.Tests/Services/JsonServiceTest.cs" Line="38" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AGLTest" expanded="True">
-            <Node name="AGLTest" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
+            <Node name="AGLTest" expanded="True" selected="True">
               <Node name="Views" expanded="True" />
             </Node>
             <Node name="AGLTest.Tests" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="JsonServiceTest.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
