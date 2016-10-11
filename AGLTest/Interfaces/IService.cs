@@ -6,7 +6,7 @@ namespace AGLTest
 {
 	public interface IService<T,P>
 	{
-		 Task<List<T>> GetOwners();
+		Task<List<T>> GetOwners();
 
 		List<P> GetPetsByOwnerGender(List<T> owners, string ownerGender);
 	}

@@ -63,6 +63,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -70,6 +71,7 @@
     <Folder Include="Scripts\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />

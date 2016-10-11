@@ -17,18 +17,15 @@ namespace AGLTest.Controllers
 		{
 			IService<Owner, Pet> service = new JsonService(); 
 			var owners = service.GetOwners().Result;
+
 			var petsWithMaleOwner =  service.GetPetsByOwnerGender(owners,"Male");
 			var petsWithFemaleOwner = service.GetPetsByOwnerGender(owners, "Female");
+
 			//Sort cats out and order by its name
 			ViewData["CatsWithMaleOwner"] = petsWithMaleOwner.Where(x => x.Type == "Cat").OrderBy(x => x.Name).ToList();
 			ViewData["CatsWithFemaleOwner"] = petsWithFemaleOwner.Where(x => x.Type == "Cat").OrderBy(x => x.Name).ToList();
 
 			return View();
-
 		}
-
-
-
-
 	}
 }

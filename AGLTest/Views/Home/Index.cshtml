@@ -1,10 +1,14 @@
 ﻿<h2>Male</h2>
+
+<!--Loop and show cats with male owner -->
 @foreach (var pet in (List<Pet>)ViewData["CatsWithMaleOwner"])
 {
   <div>@pet.Name</div>
 }
 
 <h2>Female</h2>
+
+<!--Loop and show cats with female owner -->
 @foreach (var pet in (List<Pet>)ViewData["CatsWithFemaleOwner"])
 {
   <div>@pet.Name</div>

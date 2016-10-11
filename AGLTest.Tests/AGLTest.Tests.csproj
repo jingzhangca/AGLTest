@@ -63,12 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AGLTest\AGLTest.csproj">
-      <Project>{534132E8-BBE3-4655-9616-7D15C7288C9C}</Project>
-      <Name>AGLTest</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +70,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Services\JsonServiceTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AGLTest\AGLTest.csproj">
+      <Project>{534132E8-BBE3-4655-9616-7D15C7288C9C}</Project>
+      <Name>AGLTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

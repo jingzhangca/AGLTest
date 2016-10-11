@@ -5,6 +5,7 @@ using System.Net.Http;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Linq;
+using System.Configuration;
 
 namespace AGLTest
 {
@@ -20,7 +21,8 @@ namespace AGLTest
 		/// <returns>The owners.</returns>
 		public async Task<List<Owner>> GetOwners()
 		{
-			string url = @"http://agl-developer-test.azurewebsites.net/people.json";
+			//Get service url from configuration file.
+			string url = ConfigurationManager.AppSettings["jsonServiceUrl"];
 
 			using (var client = new HttpClient())
 			{
