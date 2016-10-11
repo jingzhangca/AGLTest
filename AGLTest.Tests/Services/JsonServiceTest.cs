@@ -18,6 +18,7 @@ namespace AGLTest.Tests
 
 			// Assert
 			Assert.AreNotEqual(result, null);
+			Assert.AreEqual(result.Count,6);
 		}
 
 		[Test]
@@ -31,6 +32,9 @@ namespace AGLTest.Tests
 			//Assert
 			Assert.AreNotEqual(petsWithMaleOwner, null);
 			Assert.AreNotEqual(petsWithFemaleOwner, null);
+
+			Assert.AreEqual(petsWithMaleOwner.Count, 6);
+			Assert.AreEqual(petsWithFemaleOwner.Count, 4);
 		}
 	}
 }
