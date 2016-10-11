@@ -17,7 +17,9 @@ namespace AGLTest.Tests
 			var result = service.GetOwners().Result;
 
 			// Assert
+			// Assert result is not null
 			Assert.AreNotEqual(result, null);
+			// Assert the number of owners is correct
 			Assert.AreEqual(result.Count,6);
 		}
 
@@ -30,9 +32,12 @@ namespace AGLTest.Tests
 			var petsWithFemaleOwner = service.GetPetsByOwnerGender(owners, "Female");
 
 			//Assert
+
+			//Assert pets are not null
 			Assert.AreNotEqual(petsWithMaleOwner, null);
 			Assert.AreNotEqual(petsWithFemaleOwner, null);
 
+			//Assert pets' count is correct
 			Assert.AreEqual(petsWithMaleOwner.Count, 6);
 			Assert.AreEqual(petsWithFemaleOwner.Count, 4);
 		}
