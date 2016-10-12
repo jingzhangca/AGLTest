@@ -14,13 +14,13 @@ namespace AGLTest.Tests
 		public void GetOwnersTest()
 		{
 			// Act
-			var result = service.GetOwners().Result;
+			var owners = service.GetOwners().Result;
 
 			// Assert
-			// Assert result is not null
-			Assert.AreNotEqual(result, null);
+			// Assert owners are not null
+			Assert.AreNotEqual(owners, null);
 			// Assert the number of owners is correct
-			Assert.AreEqual(result.Count,6);
+			Assert.AreEqual(owners.Count,6);
 		}
 
 		[Test]

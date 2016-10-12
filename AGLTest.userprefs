@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{534132E8-BBE3-4655-9616-7D15C7288C9C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AGLTest/Services/JsonService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AGLTest.Tests/Services/JsonServiceTest.cs">
     <Files>
       <File FileName="AGLTest/Services/JsonService.cs" Line="39" Column="40" />
       <File FileName="AGLTest/Web.config" Line="33" Column="97" />
@@ -7,7 +7,7 @@
       <File FileName="AGLTest/Models/Pet.cs" Line="1" Column="1" />
       <File FileName="AGLTest/Interfaces/IService.cs" Line="11" Column="68" />
       <File FileName="AGLTest/Controllers/HomeController.cs" Line="29" Column="4" />
-      <File FileName="AGLTest.Tests/Services/JsonServiceTest.cs" Line="4" Column="1" />
+      <File FileName="AGLTest.Tests/Services/JsonServiceTest.cs" Line="39" Column="4" />
       <File FileName="AGLTest.Tests/packages.config" Line="1" Column="1" />
       <File FileName="AGLTest.Tests/app.config" Line="7" Column="1" />
     </Files>
